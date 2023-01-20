@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.translate {
+    transform: translateX(300px);
+}
+
+.scale {
+    transform: scaleX(1.5);
+}
+
+.rotate {
+    transform: rotateZ(45deg);
+}
