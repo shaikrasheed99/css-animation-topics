@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    position: relative;
+}
+
+.circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    border: 0;
+    border-radius: 50%;
+    animation: revolve 15s linear infinite normal;
+}
+
+.circle h1 {
+    padding-top: 40%;
+}
+
+@keyframes revolve {
+    0% { left: 0; top: 0; }
+    10% { left: 0; top: 540px; }
+    20% { left: 1250px; top: 540px; }
+    30% { left: 1250px; top: 0; }
+    50% { left: 0; top: 0; }
+    60% { left: 0; top: 0; }
+    70% { left: 0; top: 540px; }
+    80% { left: 1250px; top: 540px; }
+    90% { left: 1250px; top: 0; }
+    100% { left: 0; top: 0; }
+}
